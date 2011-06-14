@@ -96,3 +96,6 @@ class AlohaRental
   end
 
 end
+
+a = AlohaRental.new('vacation_rentals.json','input.txt') 
+a.totals
